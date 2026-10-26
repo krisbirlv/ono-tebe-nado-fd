@@ -1,7 +1,7 @@
 .body {
     margin: 0;
     background-color: #FFF;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", "Arial" sans-serif;
 }
 
 .header {
@@ -91,7 +91,6 @@
     gap: 20px;
     position: relative;
     width: 1000px;
-    height: 385px;
     margin: 0 auto;
     z-index: 2;
 }
@@ -246,13 +245,6 @@
     margin-left: 47px;
 }
 
-.about__column_right {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-top: 136px;
-}
-
 .about__logo {
     height: 240px;
     width: 240px;
@@ -268,6 +260,21 @@
     height: 114px;
 }
 
+
+.about__column_right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 136px;
+}
+
+.about__title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
 .about__text {
     font-size: 20px;
     line-height: 24px;
@@ -276,13 +283,6 @@
     flex-direction: column;
     gap: 24px;
     width: 693px;
-}
-
-.about__title {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 100px;
 }
 
 .footer {
